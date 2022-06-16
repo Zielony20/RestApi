@@ -63,10 +63,5 @@ class ContributionsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Contributions
         fields = '__all__'
-        validators = [
-            UniqueTogetherValidator(
-                queryset=Contributions.objects.all(),
-                fields=['month']
-            )
-        ]
+        
 
