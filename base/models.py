@@ -70,3 +70,4 @@ class Income(models.Model):
 "date":"2006-10-25"
 }
 '''
+
